@@ -37,6 +37,7 @@ func main() {
 				{Title: "The Thing", Director: "John Carpenter"},
 			},
 		}
+
 		t.Execute(w, films)
 
 		// Displaying our data inside Template
